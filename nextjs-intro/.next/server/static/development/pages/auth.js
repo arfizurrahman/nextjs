@@ -102,36 +102,45 @@ module.exports =
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 var _this = undefined,
     _jsxFileName = "C:\\Projects\\nextjs\\nextjs-intro\\components\\User.js";
 
 
 
+
 var user = function user(props) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-1097829350",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4,
       columnNumber: 2
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+    className: "jsx-1097829350",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5,
       columnNumber: 3
     }
-  }, props.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, props.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1097829350",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6,
       columnNumber: 3
     }
-  }, "Age: ", props.age));
+  }, "Age: ", props.age), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "1097829350",
+    __self: _this
+  }, "div.jsx-1097829350{border:1px solid #eee;box-shadow:0 2px 3px #ccc;padding:20px;text-align:center;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxQcm9qZWN0c1xcbmV4dGpzXFxuZXh0anMtaW50cm9cXGNvbXBvbmVudHNcXFVzZXIuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBTWMsQUFHMkIsc0JBQ0ksMEJBQ2IsYUFDSyxrQkFDbkIiLCJmaWxlIjoiQzpcXFByb2plY3RzXFxuZXh0anNcXG5leHRqcy1pbnRyb1xcY29tcG9uZW50c1xcVXNlci5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XHJcblxyXG5jb25zdCB1c2VyID0gKHByb3BzKSA9PiAoXHJcblx0PGRpdj5cclxuXHRcdDxoMT57cHJvcHMubmFtZX08L2gxPlxyXG5cdFx0PHA+QWdlOiB7cHJvcHMuYWdlfTwvcD5cclxuXHRcdDxzdHlsZSBqc3g+e2BcclxuXHRcdFx0ZGl2IHtcclxuXHRcdFx0XHRib3JkZXI6IDFweCBzb2xpZCAjZWVlO1xyXG5cdFx0XHRcdGJveC1zaGFkb3c6IDAgMnB4IDNweCAjY2NjO1xyXG5cdFx0XHRcdHBhZGRpbmc6IDIwcHg7XHJcblx0XHRcdFx0dGV4dC1hbGlnbjogY2VudGVyO1xyXG5cdFx0XHR9XHJcblx0XHRgfTwvc3R5bGU+XHJcblx0PC9kaXY+XHJcbik7XHJcblxyXG5leHBvcnQgZGVmYXVsdCB1c2VyO1xyXG4iXX0= */\n/*@ sourceURL=C:\\Projects\\nextjs\\nextjs-intro\\components\\User.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (user);
@@ -207,6 +216,17 @@ module.exports = __webpack_require__(/*! C:\Projects\nextjs\nextjs-intro\pages\a
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "styled-jsx/style":
+/*!***********************************!*\
+  !*** external "styled-jsx/style" ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("styled-jsx/style");
 
 /***/ })
 
